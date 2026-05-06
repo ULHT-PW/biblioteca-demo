@@ -1,29 +1,8 @@
+{% load static %}
 <html>
     <head>
         <title>Biblioteca</title>
-        <style>
-            body {
-                background: khaki;
-            }
-            .errorlist {
-                display:none;
-            }
-            header nav{
-                display:flex;
-                flex-direction:row;
-                justify-content: flex-start;
-                gap:5px;
-            }
-            footer {
-                position: fixed;
-                bottom: 10px;
-            }
-            table th {text-align:right;}
-            helptext {
-                font-size: 0.7em;
-                color: gray;
-            }
-        </style>
+        <link rel="stylesheet" href="{% static 'biblioteca/layout.css' %}">
     </head>
     <body>
         <header>
@@ -33,7 +12,7 @@
                 <a href="{% url 'generos' %}"><button>Géneros</button></a>
                 <a href="{% url 'pesquisa-autor' %}"><button>Pesquisa Autor</button></a>
                 
-                <div style="margin-left: auto;">
+                <div class="user-actions">
                 {% if request.user.is_authenticated %}
                     Username:{{request.user.username}}
                     <a href="{% url 'logout' %}"><button>Logout</button></a>

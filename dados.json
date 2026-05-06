@@ -1,0 +1,282 @@
+[
+    {
+        "model": "biblioteca.autor",
+        "pk": 48,
+        "fields": {
+            "nome": "Eça de Queirós",
+            "ano_nascimento": 1845,
+            "nacionalidade": "Portuguesa",
+            "retrato": "retratos/ecaqueiros.jpeg"
+        }
+    },
+    {
+        "model": "biblioteca.autor",
+        "pk": 49,
+        "fields": {
+            "nome": "Jorge Amado",
+            "ano_nascimento": 1912,
+            "nacionalidade": "Brasileira",
+            "retrato": "retratos/jorgeamado.jpeg"
+        }
+    },
+    {
+        "model": "biblioteca.autor",
+        "pk": 50,
+        "fields": {
+            "nome": "Mia Couto",
+            "ano_nascimento": 1955,
+            "nacionalidade": "Moçambicana",
+            "retrato": "retratos/miacouto.jpeg"
+        }
+    },
+    {
+        "model": "biblioteca.autor",
+        "pk": 51,
+        "fields": {
+            "nome": "Fernando Pessoa",
+            "ano_nascimento": 1888,
+            "nacionalidade": "Portuguesa",
+            "retrato": "retratos/pessoa.jpeg"
+        }
+    },
+    {
+        "model": "biblioteca.autor",
+        "pk": 52,
+        "fields": {
+            "nome": "José Saramago",
+            "ano_nascimento": 1922,
+            "nacionalidade": "Portuguesa",
+            "retrato": "retratos/saramago.jpeg"
+        }
+    },
+    {
+        "model": "biblioteca.autor",
+        "pk": 53,
+        "fields": {
+            "nome": "Sophia de Mello Breyner Andresen",
+            "ano_nascimento": 1919,
+            "nacionalidade": "Portuguesa",
+            "retrato": "retratos/sophia.jpeg"
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 31,
+        "fields": {
+            "titulo": "Capitães da Areia",
+            "autor": 49,
+            "genero": "Romance",
+            "ano_publicacao": 1937,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 32,
+        "fields": {
+            "titulo": "Gabriela, Cravo e Canela",
+            "autor": 49,
+            "genero": "Romance",
+            "ano_publicacao": 1958,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 33,
+        "fields": {
+            "titulo": "Dona Flor e Seus Dois Maridos",
+            "autor": 49,
+            "genero": "Romance",
+            "ano_publicacao": 1966,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 34,
+        "fields": {
+            "titulo": "O Primo Basílio",
+            "autor": 48,
+            "genero": "Romance",
+            "ano_publicacao": 1878,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 35,
+        "fields": {
+            "titulo": "Os Maias",
+            "autor": 48,
+            "genero": "Romance",
+            "ano_publicacao": 1888,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 36,
+        "fields": {
+            "titulo": "O Crime do Padre Amaro",
+            "autor": 48,
+            "genero": "Romance",
+            "ano_publicacao": 1875,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 37,
+        "fields": {
+            "titulo": "Terra Sonâmbula",
+            "autor": 50,
+            "genero": "Romance",
+            "ano_publicacao": 1992,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 38,
+        "fields": {
+            "titulo": "A Chuva Pasmada",
+            "autor": 50,
+            "genero": "Romance",
+            "ano_publicacao": 1997,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 39,
+        "fields": {
+            "titulo": "O Livro do Desassossego",
+            "autor": 51,
+            "genero": "Romance",
+            "ano_publicacao": 1982,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 40,
+        "fields": {
+            "titulo": "Mensagem",
+            "autor": 51,
+            "genero": "Poesia",
+            "ano_publicacao": 1934,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 41,
+        "fields": {
+            "titulo": "Ensaio Sobre a Cegueira",
+            "autor": 52,
+            "genero": "Romance",
+            "ano_publicacao": 1995,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 42,
+        "fields": {
+            "titulo": "Memorial do Convento",
+            "autor": 52,
+            "genero": "Romance",
+            "ano_publicacao": 1982,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 43,
+        "fields": {
+            "titulo": "O Ano da Morte de Ricardo Reis",
+            "autor": 52,
+            "genero": "Romance",
+            "ano_publicacao": 1984,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 44,
+        "fields": {
+            "titulo": "Signo",
+            "autor": 53,
+            "genero": "Poesia",
+            "ano_publicacao": 1994,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 45,
+        "fields": {
+            "titulo": "Coral",
+            "autor": 53,
+            "genero": "Poesia",
+            "ano_publicacao": 1950,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 46,
+        "fields": {
+            "titulo": "Histórias da Terra e do Mar",
+            "autor": 53,
+            "genero": "Contos",
+            "ano_publicacao": 1989,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 47,
+        "fields": {
+            "titulo": "Contos Exemplares",
+            "autor": 53,
+            "genero": "Contos",
+            "ano_publicacao": 1962,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 48,
+        "fields": {
+            "titulo": "Contos",
+            "autor": 48,
+            "genero": "Contos",
+            "ano_publicacao": 1902,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 49,
+        "fields": {
+            "titulo": "Os Poemas Possíveis",
+            "autor": 52,
+            "genero": "Poesia",
+            "ano_publicacao": 1966,
+            "excerto": ""
+        }
+    },
+    {
+        "model": "biblioteca.livro",
+        "pk": 51,
+        "fields": {
+            "titulo": "O Primo Basílio",
+            "autor": 48,
+            "genero": "Romance",
+            "ano_publicacao": 1890,
+            "excerto": ""
+        }
+    }
+]

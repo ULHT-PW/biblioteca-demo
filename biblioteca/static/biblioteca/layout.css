@@ -1,0 +1,32 @@
+body {
+    background: khaki;
+}
+
+.errorlist {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.user-actions {
+    margin-left: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+}
+
+table th {
+    text-align: right;
+}
+
+helptext {
+    font-size: 0.7em;
+    color: gray;
+}
